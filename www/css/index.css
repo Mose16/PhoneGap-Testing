@@ -1,0 +1,13 @@
+body {
+	background-color:white;
+	padding:0px;
+	margin:0px;
+}
+
+.center {
+	position:absolute;
+	background-color:red;
+	width:100vw;
+	height:80vh;
+	margin-top:10vh;
+}
