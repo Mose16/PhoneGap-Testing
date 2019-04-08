@@ -1,0 +1,19 @@
+body {
+	background-color:white;
+	padding:0px;
+	margin:0px;
+}
+
+#pop {
+	width:50%;
+	height:50%;
+	background-color:green;
+}
+
+.center {
+	position:absolute;
+	background-color:grey;
+	width:100vw;
+	height:80vh;
+	margin-top:10vh;
+}
