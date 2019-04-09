@@ -14,16 +14,25 @@
 		<script src="javascript/index.js"></script>
 		
 		
+		<nav>
+			<ul>
+				<li>Do it</li>
+			</ul>
+		</nav>
+		
+		
 		<div class="center">
 			<h1>List</h1>
-			<button onclick="add_window()">Add option</button>
-			<ul>
+			<button id="add_window">Add option</button>
+			<ul id="options">
 				<li>Option 1</li>
 			</ul>
 			
 			<div id="pop">
-				<input type="text" value="New option name:"></input>
-				<button onclick="add()">Add</button>
+				<ul>
+					<li><input class="add" id="add_input" type="text" value="New option name:"></input></li>
+					<li><button id="add" style="float:top; margin-top:2%;">Add</button></li>
+				</ul>
 			</div>
 			
 			<!--

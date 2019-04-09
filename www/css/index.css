@@ -4,16 +4,39 @@ body {
 	margin:0px;
 }
 
-#pop {
-	width:50%;
-	height:50%;
+ul {
+list-style-type: none;
+}
+
+nav {
+	margin-top:-16px;
+	width:100vw;
+	height:70px;
 	background-color:green;
+}
+
+#pop {
+	text-align:center;
+	margin-left:25vw;
+	width:50vw;
+	height:50vh;
+	background-color:white;
+	position:fixed;
+	box-shadow:0px 10px 20px black;
+	border-radius:3px;
+	float:center;
+}
+
+#add_input {
+	height:10%;
+	position:relative;
+	width:70%; 
+	margin-top:20%;
 }
 
 .center {
 	position:absolute;
-	background-color:grey;
+	background-color:;
 	width:100vw;
 	height:80vh;
-	margin-top:10vh;
 }
